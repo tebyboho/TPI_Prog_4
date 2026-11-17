@@ -1,0 +1,10 @@
+from app.core.unit_of_work import UnitOfWork
+from app.modules.usuarios.models import Usuario
+from app.modules.usuarios.repository import UsuarioRepository
+
+
+class UsuarioUnitOfWork(UnitOfWork):
+    usuarios: UsuarioRepository
+
+    def _init_repositories(self) -> None:
+        self.usuarios = UsuarioRepository(self.session, Usuario)
