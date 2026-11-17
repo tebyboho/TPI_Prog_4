@@ -3,8 +3,8 @@
 Aplicación web de pedidos de comida: los clientes recorren el catálogo, arman un carrito y confirman pedidos; el administrador gestiona categorías, productos, stock, pedidos y usuarios.
 Backend en FastAPI + SQLModel + PostgreSQL y frontend en React + TypeScript + Vite (TPI de Programación 4).
 
-- **Repositorio:** `URL_DEL_REPOSITORIO`
-- **Video demo:** `URL_DEL_VIDEO`
+- **Repositorio:** `http://github.com/tebyboho/TPI_Prog_4`
+- **Video demo:** `https://drive.google.com/file/d/1UUVng_G21GWQmVWkCuEoJnsGtArX4zCR/view?usp=sharing`
 
 ---
 
